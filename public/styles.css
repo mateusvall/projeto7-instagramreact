@@ -1,0 +1,692 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+  }
+  
+  .nav-bar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 54px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #dbdbdb;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-container{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+  }
+  .nav-logo-area{
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-instagram {
+    height: 19.25px;
+  }
+  
+  .vertical-bar {
+    margin-left: 10px;
+    width: 1px;
+    height: 22px;
+    background-color: #dbdbdb;
+  }
+  
+  .name-instagram {
+    margin-left: 10px;
+  }
+
+  
+  .nav-bar input {
+    height: 28px;
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+  }
+
+  .nav-button-area{
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .messsages {
+   
+  }
+  
+  .explorer {
+   
+  }
+  
+  .likes {
+  
+  }
+  
+  .contacts {
+  
+  }
+
+  .content-area{
+    margin-top: 88px;
+    width: 1000px;
+    display: flex;
+  }
+  
+  .stories {
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 614px;
+    height: 118px;
+    overflow: hidden;
+    position: relative;
+   
+  }
+
+  .stories-container{
+    width: 630px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 23px;
+  }
+  
+  .story1 {
+    width: 66px;
+    height: 66px;
+    background-image: url("img/stories_background\ 1.png");
+    border-radius: 33px;
+    position: relative;
+  }
+  
+  .story1 img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+  }
+  
+  .story1 p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+  }
+  
+  .story2 {
+    width: 66px;
+    height: 66px;
+    background-image: url("img/stories_background\ 1.png");
+    border-radius: 33px;
+    position: relative;
+  }
+  
+  .story2 img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 5px;
+    top: 5px;
+  }
+  
+  .story2 p {
+    position: absolute;
+    left: 12px;
+    top: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .story3 {
+    width: 66px;
+    height: 66px;
+    background-image: url("img/stories_background\ 1.png");
+    border-radius: 33px;
+    position: relative;
+  }
+  
+  .story3 img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 5px;
+    top: 5px;
+  }
+  
+  .story3 p {
+    position: absolute;
+    left: 17px;
+    top: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .story4 {
+    width: 66px;
+    height: 66px;
+    background-image: url("img/stories_background\ 1.png");
+    border-radius: 33px;
+    position: relative;
+  }
+  
+  .story4 img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 5px;
+    top: 5px;
+  }
+  
+  .story4 p {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .story5 {
+    width: 66px;
+    height: 66px;
+    background-image: url("img/stories_background\ 1.png");
+    border-radius: 33px;
+    position: relative;
+  }
+  
+  .story5 img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 5px;
+    top: 5px;
+  }
+  
+  .story5 p {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .story6 {
+    width: 66px;
+    height: 66px;
+    background-image: url("img/stories_background\ 1.png");
+    border-radius: 33px;
+    position: relative;
+  }
+  
+  .story6 img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 5px;
+    top: 5px;
+  }
+  
+  .story6 p {
+    position: absolute;
+    left: 7px;
+    top: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .story7 {
+    width: 66px;
+    height: 66px;
+    background-image: url("img/stories_background\ 1.png");
+    border-radius: 33px;
+    position: relative;
+  }
+  
+  .story7 img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 5px;
+    top: 5px;
+  }
+  
+  .story7 p {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .story8 {
+    width: 66px;
+    height: 66px;
+    background-image: url("img/stories_background\ 1.png");
+    border-radius: 33px;
+    position: relative;
+  }
+  
+  .story8 img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 5px;
+    top: 5px;
+  }
+  
+  .arrow {
+    z-index: 3;
+    position: absolute;
+    left: 579px;
+    top: 40px;
+  }
+  .story8 p {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .post-area{
+    margin-top: 24px;
+  }
+  
+  .content-1 {
+    width: 614px;
+    height: 749px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    position: relative;
+  }
+  
+  .content-2 {
+    margin-top: 60px;
+    width: 614px;
+    height: 749px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    position: relative;
+  }
+  
+  .content-3 {
+    margin-top: 60px;
+    width: 614px;
+    height: 749px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    position: relative;
+  }
+  
+  .author {
+    position: absolute;
+    left: 64px;
+    top: 21px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+  }
+  
+  .author-img {
+    position: absolute;
+    top: 15px;
+    left: 17px;
+  }
+  
+  .three-dots {
+    position: absolute;
+    right: 17px;
+    top: 23px;
+  }
+  
+  .post {
+    width: 612px;
+    height: 612px;
+    position: absolute;
+    top: 61px;
+    left: 0px;
+  }
+  
+  .like-post {
+    position: absolute;
+    left: 17.75px;
+    bottom: 47.44px;
+  }
+
+  .liked{
+    color:red;
+    position: absolute;
+    left: 17.75px;
+    bottom: 47.44px;
+  }
+  
+  .message-post {
+    position: absolute;
+    left: 52.06px;
+    bottom: 47.44px;
+  }
+  
+  .share-post {
+    position: absolute;
+    left: 88.06px;
+    bottom: 47.44px;
+  }
+  
+  .like-img {
+    position: absolute;
+    left: 17px;
+    bottom: 14px;
+    border-radius: 10px;
+  }
+  
+  .like-message {
+    position: absolute;
+    left: 42px;
+    bottom: 16px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  strong {
+    font-weight: 700;
+  }
+  
+  .favorite {
+    position: absolute;
+    right: 17.62px;
+    bottom: 47.44px;
+  }
+
+  .data-area{
+    width: 614px;
+  }
+  
+  .side-bar {
+    margin-left: 28px;
+    width: 100%;
+  }
+  
+  .main-suggestion {
+    margin-top: 30px;
+    width: 100%;
+    height: 56px;
+    position: relative;
+  }
+  
+  .main-suggestion h1{
+    position: absolute;
+    top: 10px;
+    left: 73px;
+  }
+
+  .main-suggestion p{
+    position: absolute;
+    top: 25px;
+    left: 73px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .suggestions {
+    margin-top: 24px;
+    position: relative;
+  }
+  
+  .suggestions p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8e8e8e;
+  }
+  
+  .suggestions h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  
+  .suggestion {
+    margin-top: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .suggestion h1 {
+    position: absolute;
+    top: 0px;
+    left: 43px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+  }
+  
+  .suggestion p {
+    position: absolute;
+    top: 16px;
+    left: 43px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8e8e8e;
+  }
+  
+  .suggestion h3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139ef2;
+  }
+  
+  .suggestion img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
+  
+  .about {
+    margin-top: 33px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #c7c7c7;
+  }
+  
+  .rights {
+    margin-top: 18px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #c7c7c7;
+  }
+  
+  .mobile-bar {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 54px;
+    z-index: 3;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    display: none;
+  }
+  
+  .home {
+    position: absolute;
+    top: 19.75px;
+    left: 21.75px;
+  }
+  .search-mob {
+    position: absolute;
+    left: 158.75px;
+    top: 19.75px;
+  }
+  
+  .plus-mob {
+    position: absolute;
+    top: 19.75px;
+    left: 296.75px;
+  }
+  
+  .likes-mob {
+    position: absolute;
+    top: 19.75px;
+    left: 434.75px;
+  }
+  
+  .contacts-mob {
+    position: absolute;
+    top: 19.75px;
+    left: 572.75px;
+  }
+  
+  @media (max-width: 935px) {
+    .side-bar {
+      display: none;
+    }
+
+    .nav-logo-area{
+      margin-left: 20px;
+    }
+
+    .nav-button-area{
+      margin-right: 20px;
+    }
+
+    .content-area{
+      display: flex;
+      justify-content: center;
+    }
+  
+  }
+  
+  @media (max-width: 614px) {
+    .vertical-bar {
+      display: none;
+    }
+  
+    .nav-bar input {
+      display: none;
+    }
+  
+    .explorer {
+      display: none;
+    }
+  
+    .likes {
+      display: none;
+    }
+  
+    .contacts {
+      display: none;
+    }
+  
+    .arrow {
+      display: none;
+    }
+  
+    .mobile-bar {
+      display: inherit;
+    }
+
+    .content-area{
+      margin-top: 54px;
+      width: 614px;
+    }
+    .post-area{
+      margin-top: 0px;
+    }
+    .stories{
+      background-color: #fafafa;
+      border: none;
+    }
+
+    .name-instagram{
+      margin-left: 220px;
+    }
+
+    .nav-button-area{
+      width: 40px;
+      margin-right: 21px;
+    }
+    
+  }
+  
